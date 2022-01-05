@@ -28,7 +28,6 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str}
   // Tu código:
-  var str ='Holaaa';
   return str;
   
 }
@@ -163,12 +162,10 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  var num =0;
-  Math.random(num)= num;
-  if (num ='0' || num  ){
-
-  }
-
+  var num=0;
+  Math.random(num);
+  return (num);
+ 
 }
 
 function esPositivo(numero) {
@@ -176,12 +173,14 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  var neg="es negativo";
-  if (numero >= 0){
-    var pos ="Es positivo";
-    return (pos);
-  }
-  return(neg);
+  if (numero == 0){
+    return (false);
+    
+   } else if (numero > 0){
+    return("Es positivo");
+
+  }return("Es negativo");
+
 
 }
 
@@ -191,7 +190,7 @@ function agregarSimboloExclamacion(str) {
   // Tu código:
 
 
-  return (str + " ! ");
+  return (str + "!");
 }
 
 function combinarNombres(nombre, apellido) {
@@ -205,9 +204,8 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var nombre= "danna";
   
-  return ("hOLA" + nombre) ;
+  return ("Hola" + " " + nombre + "!") ;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -236,7 +234,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  
+  return (euro + euro* 0.20);
 }
 
 
@@ -246,6 +244,15 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
+  if (letra.length>=2){
+
+    return ("Dato incorrecto");}
+  
+     else if (letra == 'a' || letra =='e'||letra =='i' ||letra=='o' || letra =='u'){
+        return ("Es vocal");
+      }
+      return("Dato incorrecto");
+    
   
 }
 
