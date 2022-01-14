@@ -1,0 +1,11 @@
+For: El for se ejecuta en bucles, evaluando expresiones una y otra vez hasta que devuelve lo que estamos
+buscando o se detiente despues de cierto tiempo.
+
+Operadores logicos 
+&& (AND): Este evalua ambas expresiones y delvovera verdadero si ambas expresiones son TRUE. Si uno o ambos de ellos 
+son falso, este operador devolvera FALSE.
+
+||(OR): Si una expresion es true, devolvera true si una (o ambos) de las expresiones es true, devolvera false si ambas 
+expresiones son false.
+
+!(NOT): devolvera el valor booleano opuesto de lo que se le pasa.

@@ -1,0 +1,22 @@
+Las Variables : Una variable es una forma de almacenar el valor de algo, para luego utilizarlo mas tarde.
+En JavaScript una variable se puede configurar y restablecer a cualquier tipo. 
+Existen tres forma de declarar una variable como; Var,Let,Const.
+
+Strings: Los strings son un tipo de dato, son bloques de textos.
+
+Funciones:Las funciones son un conjunto de instrucciones que puede realizar una tarea. pero para que un procedimiento
+califique como funcion, debe tomar alguna entrada y devolver una salida donde hay alguna relacion obvia entre la 
+entrada y la salida.
+
+Funcion(argumento): se le agrega una variable a los parentesis cuando declaramos una funcion, podemos tambien 
+agregar varios argunmentos dentro de los parentesis, para luego poder utilizar esa variable dentro de la funcion
+Iniciamos el valor de la variable cuando la pasamos a la funcion cuando la llamamos.
+
+RETURN : Es la unica forma en que los datos escapan de la funcion cuando finaliza la ejecucion y especifica un valor
+para ser devuelto a quien llama la funcion.
+
+If: El if es una estructura de control utilizada para tomar decisiones. Es un condicional que sirve para realizar una
+o otras operaciones en funcion de una expresion.
+
+Valore Booleanos (True, False): Un valor booleano representa la verdad, True o false(Verdadero o falso), Una expresion
+boooleana puede predecir un valor de desconocido que representa un valor nulo.

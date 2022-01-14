@@ -1,0 +1,15 @@
+Objetos: Los objetos y las matices son muy similares en ciertos casos y diferentes en otras.
+los objetos contienen mucha informacion sobre una sola cosa. los objetos se instancia con {}
+Aparte de ser una instancia de una clase.
+
+Propiedades: Una caracteristica del objeto, como por ejemplo el color.
+
+Metodos: Las funciones guardadas  en un objeto se denominan metodos 
+
+For in..:Los objetos no contienen indice numerico por lo que el bucle estandar no funciona para los objetos
+El for in.. recorrera cada clave del objeto y finalizara cuando hayan iterado las claves.
+
+Notacion de puntos:Podemos llamar al nombre objeto. un punto y el nombre de la clave. Asi como llamamos a la propiedad
+
+Notacion de Corchetes: es como llamar al elemento en una matriz 
+

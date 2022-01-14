@@ -1,0 +1,4 @@
+Constructor: Es un metodo llamado en el momento de la creacion de instancia
+
+Prototype: Las clases tienen una forma unica de establecer un metodo una vez y dar acceso a cada objeto de esa clases
+a esos metodos. cada clase tiene una propiedad Prototype que luego podemos establecer en metodos.
