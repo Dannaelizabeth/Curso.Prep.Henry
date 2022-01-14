@@ -25,7 +25,10 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
-  var suma =numeros.reduce(function(cb,elementos){});
+  var suma =numeros.reduce(function(acc,elementos){
+    return acc + elementos;
+  },0);
+  cb (suma);
 
   
 
@@ -36,6 +39,13 @@ function forEach(array, cb) {
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
   //Tu código:
 
+  // array.forEach(function(el, index) {
+  //   cb(el);
+  // });
+
+  for(var i = 0; i < array.length; i++) {
+    cb(array[i]);
+  }
 }
 
 
@@ -44,10 +54,10 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
-  var nuevo =[];
-
-  array.map(cb);
-  return nuevo=cb;
+  var nuevo = array.map(function (el){
+    return cb(el);
+  });
+  return nuevo;
 
 }
 
@@ -55,6 +65,11 @@ function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
+  var nuevo =array.filter(function(elemento)
+  {
+    return elemento[0]=== 'a';
+  })
+  return nuevo;
 }
 
 // No modificar nada debajo de esta línea
